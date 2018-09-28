@@ -1,7 +1,10 @@
 (ns lein-cljs-npm-deps-example.core
-  (:require ))
+  (:require ["left-pad" :as leftPad]))
 
 (enable-console-print!)
+
+;; example
+(leftPad "123" 5)
 
 (println "This text is printed from src/lein-cljs-npm-deps-example/core.cljs. Go ahead and edit it and see reloading in action.")
 
